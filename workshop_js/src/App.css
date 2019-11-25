@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  width: 20vw;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.pages h1,h3{
+  text-align: center;
+}
+.pages{
+  font-family:  'Merriweather', serif;
+  font-size: 1.5rem;
+  padding:40px;
+  text-align: start;
+}
+.pages p{
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.next, .prev{
+  width:5vw ;
+  height: auto;
+  padding: 30px;
+}
+ul{
+  list-style: none;
+}
+li h3{
+  background: rgb(255,0,0,0.2);
+  text-align: left;
+  padding-left: 10rem;
+  width: 70vw;
+}
+.es{
+  list-style:  disc;
+}
