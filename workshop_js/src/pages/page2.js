@@ -1,12 +1,17 @@
 import React from 'react';
-
+import netscape from '../img/netscape.png'
+import imgES10 from '../img/jsEs10.png'
 
 
 function Page2() {
     return (
         <div className="pages">
-            <h1> What is ECMAScript</h1>
-            <h3>from wikipedia</h3>
+            {/* <h1> What is ECMAScript</h1>
+            <h3>from wikipedia</h3> */}
+            <div>
+            <img src={netscape} alt="netscape" className="imgNetscape"/> 
+            <img src={imgES10} alt="imgES10" className="imgES10"/>
+            </div>
             <div>
                 <ul>
                     <li>
@@ -37,75 +42,64 @@ function Page2() {
                     </li>
                     <li>
                         <h3>June 2015[11]</h3>
-                        <p>
-                        ECMAScript 2015 (ES6) (http://es6-features.org)
-                                <ul class="es">
-                                    <li>Arrow Functions</li>
-                                    <li>Classes</li>
-                                    <li>String interpolation</li>
-                                    <li>Destructuring</li>
-                                    <li>Default value</li>
-                                    <li>Spread,Spread + Object Literals,Spread parameters</li>
-                                    <li>Let,Const</li>
-                                    <li>For..of</li>
-                                    <li>function* Iterators and generator</li>
-                                    <li>Modules & Module Loaders (import export)  </li>
-                                    <li>Map,Set</li>
-                                    <li>Inheritable extends class</li>
-                                    <li>Promises</li>
-                                </ul>
-                        </p>
+                        <p>ECMAScript 2015 (ES6) (http://es6-features.org)</p>
+                        <ul className="es">
+                            <li>Arrow Functions</li>
+                            <li>Classes</li>
+                            <li>String interpolation</li>
+                            <li>Destructuring</li>
+                            <li>Default value</li>
+                            <li>Spread,Spread + Object Literals,Spread parameters</li>
+                            <li>Let,Const</li>
+                            <li>For..of</li>
+                            <li>function* Iterators and generator</li>
+                            <li>Modules & Module Loaders (import export)  </li>
+                            <li>Map,Set</li>
+                            <li>Inheritable extends class</li>
+                            <li>Promises</li>
+                        </ul>
+                        
                     </li>
                     <li>
                         <h3>June 2016</h3>
-                        <p>
-                        ECMAScript 2016 (ES7)
-                        <ul class="es">
-                                    <li>Array.prototype.includes</li>
-                                    <li>Exponentiation Operator</li>
-                                    <li>await, async keywords </li>
+                        <p>ECMAScript 2016 (ES7)</p>
+
+                        <ul className="es">
+                            <li>Array.prototype.includes</li>
+                            <li>Exponentiation Operator</li>
+                            <li>await, async keywords </li>
                         </ul>
                         
-                        </p>
                     </li>
                     <li>
                         <h3>June 2017</h3>
-                        <p>
-                        ECMAScript 2017 (ES8)
-                        <ul class="es">
-                                    <li>await, async with Promises </li>
-                                    <li>Object.values/Object.entries</li>
-                                    <li>String padding</li>
+                        <p>ECMAScript 2017 (ES8)</p>
+                        <ul className="es">
+                            <li>await, async with Promises </li>
+                            <li>Object.values/Object.entries</li>
+                            <li>String padding</li>
                         </ul>
-
-                        </p>
                     </li>
                     <li>
                         <h3>June 2018</h3>
-                        <p>
-                        ECMAScript 2017 (ES9)
-                        <ul class="es">
-                                    <li>Promise.prototype.finally</li>
-                                    <li>Object.values/Object.entries</li>
-                                    <li>String padding</li>
+                        <p>ECMAScript 2017 (ES9)</p>
+                        <ul className="es">
+                            <li>Promise.prototype.finally</li>
+                            <li>Object.values/Object.entries</li>
+                            <li>String padding</li>
                         </ul>
-
-                        </p>
                     </li>
                     <li>
                         <h3>June 2019</h3>
-                        <p>
-                            ECMAScript 2017 (ES10)
-                            <ul class="es">
-                                        <li>Array.Flat()</li>
-                                        <li>Array.flatMap()</li>
-                                        <li>Object.fromEntries()</li>
-                                        <li>String.trimStart() & String.trimEnd()</li>
-                                        <li>5.Optional Catch Binding</li>
-                                        <li>Array.Sort Stability</li>
-                            </ul>
-
-                        </p>
+                        <p>ECMAScript 2017 (ES10)</p>
+                        <ul className="es">
+                            <li>Array.Flat()</li>
+                            <li>Array.flatMap()</li>
+                            <li>Object.fromEntries()</li>
+                            <li>String.trimStart() & String.trimEnd()</li>
+                            <li>5.Optional Catch Binding</li>
+                            <li>Array.Sort Stability</li>
+                        </ul>
                     </li>
                 </ul>
             </div> 

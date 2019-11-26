@@ -56,3 +56,27 @@ li h3{
 .es{
   list-style:  disc;
 }
+
+
+.evolution{
+  width: 65vw;
+  height: 80vh;
+}
+
+.imgES10, .imgNetscape{
+  width: 35vw;
+  height: 20vh;
+  padding:20px
+}
+.textArea{
+  text-align: center;
+}
+
+.testArrow{
+  padding: 3%;
+  width: 60vw;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow:10px 10px 20px grey; 
+}
