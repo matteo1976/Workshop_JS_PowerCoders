@@ -8,6 +8,10 @@ import Page5 from './pages/page5';
 import Page6 from './pages/page6';
 import Page7 from './pages/page7';
 import Page8 from './pages/page8';
+import Page9 from './pages/page9';
+import Page10 from './pages/page10';
+import Page11 from './pages/page11';
+
 
 import next from './next.svg';
 import prev from './previous.svg';
@@ -25,29 +29,26 @@ export default class Workshop extends React.Component{
         switch (index) {
             case 1:
                 return <Page1/>
-                break;
             case 2:
                 return <Page2/>
-                break;
             case 3:
                 return <Page3/>
-                break;
             case 4:
                 return <Page4/>
-                break;
             case 5:
                 return <Page5/>
-                break;
             case 6:
                 return <Page6/>
-                break;
             case 7:
                 return <Page7/>
-                break;
             case 8:
                 return <Page8/>
-                break;
-                                
+            case 9:
+                return <Page9/>
+            case 10:
+                return <Page10/>
+            case 11:
+                return <Page11/>
             default:
                 break;
         }

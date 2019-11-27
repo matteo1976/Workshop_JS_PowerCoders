@@ -9,8 +9,6 @@ export default function Page8() {
     }
 
 
-
-
     //with ES6
     
     let addNumber= (a,b)=>{console.log(a+b)}
@@ -24,8 +22,6 @@ export default function Page8() {
     if arrow function make only one operation 
     let printName= name=>console.log(\`my name is \${name} \`)
 
-
-    
     
     `
 
