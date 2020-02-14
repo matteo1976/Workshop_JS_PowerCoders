@@ -50,8 +50,9 @@ export default function Page12() {
             <h2> Attention!!!!!</h2>    
             <p>Primitive object (numbers,string) are  by value</p>
             <p>not primitive object (object, array, map ...ecc) are by reference</p>       
-
+            <p><a href="https://repl.it/@matteo1976/Let-Js6" target="_blank"> example</a></p>
         </div> 
+        
       </div>
     );
   }

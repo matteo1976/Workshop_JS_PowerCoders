@@ -4,7 +4,7 @@ import React from 'react';
 
 function Page3() {
     let str=`
-    ************** exmpl 1*************
+    ************** exmpl const*************
     const age=200; 
     let immortal= false;
     if (age>150){
@@ -12,7 +12,7 @@ function Page3() {
     }
     console.log(immortal)
 
-    ************** exmpl 2*************
+    ************** exmpl let or var *************
     var i=0
 
     for(var i=0; i<=10; i++){
@@ -26,7 +26,7 @@ function Page3() {
 
       <div className="pages">
         <h1> ES6</h1>
-        <h3>LET  & CONST</h3>
+        <h3>LET / VAR  & CONST</h3>
         <div className="textArea">
             <textarea name="textarea" rows="10" cols="100" >{str}</textarea>
 
