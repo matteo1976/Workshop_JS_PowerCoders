@@ -11,7 +11,9 @@ import Page8 from './pages/page8';
 import Page9 from './pages/page9';
 import Page10 from './pages/page10';
 import Page11 from './pages/page11';
-
+import Page12 from './pages/page12';
+import Page13 from './pages/page13';
+import Page14 from './pages/page14';
 
 import next from './next.svg';
 import prev from './previous.svg';
@@ -49,7 +51,14 @@ export default class Workshop extends React.Component{
                 return <Page10/>
             case 11:
                 return <Page11/>
-            default:
+            case 12:
+                return <Page12/>
+            case 13:
+                return <Page13/>
+            case 14:
+                return <Page14/>
+        
+                default:
                 break;
         }
     }
