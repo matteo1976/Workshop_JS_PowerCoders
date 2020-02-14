@@ -1,3 +1,8 @@
+//**HELP
+/* use of Hook
+*/
+
+
 import React from 'react';
 import logo from './logo.svg';
 import Page1 from './pages/Page1';
@@ -26,6 +31,10 @@ export default class Workshop extends React.Component{
         currentIndex:0        
     }
 
+    //** HELP    
+    //*  use of rooting *** see react root
+    //*  https://reacttraining.com/react-router/web/guides/quick-start
+    //** */
     Visualpage=()=>{
         let index=this.state.currentIndex;
         switch (index) {
@@ -82,20 +91,19 @@ export default class Workshop extends React.Component{
                     {this.Visualpage()}
                 </div>
                 {this.state.currentIndex===0 ? 
-                <div>
+                    <div>
                         <img src={evolution} alt="evolution js" className="evolution "/>
-                </div>:
-                null}
-
-
-                <div className="controll">
-
-                {this.state.currentIndex>0 ? 
-                    <img src={prev} className="prev" alt="prev" onClick={this.decrementState}/>
+                    </div>
                 :
-                null}        
-                <img src={next} className="next" alt="next" onClick={this.incrementState} />
-
+                    null
+                }
+                <div className="controll">
+                    {this.state.currentIndex>0 ? 
+                        <img src={prev} className="prev" alt="prev" onClick={this.decrementState}/>
+                    :
+                        null
+                    }        
+                    <img src={next} className="next" alt="next" onClick={this.incrementState} />
                 </div>
             </div>
         );
