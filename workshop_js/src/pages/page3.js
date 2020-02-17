@@ -13,13 +13,17 @@ function Page3() {
     console.log(immortal)
 
     ************** exmpl let or var *************
-    var i=0
-
+  
     for(var i=0; i<=10; i++){
         setTimeout(()=>{
             console.log(i)
         },1000*i)
-    }    
+    }
+    ************** or *************    
+    for(var i=0; i<=10; i++){
+      setTimeout(console.log.bind(this,i),1000*i)
+  }
+  
     `
 
     return (
